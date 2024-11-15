@@ -11,6 +11,21 @@
 # Executables
 *.exe
 
+# Ignorowanie plików tymczasowych LabVIEW
+*.bak
+*.lvproj
+*.lvclass
+*.lvlib
+*.lib
+*.ctt
+*.log
+*.tmp
+
+# Ignorowanie folderów tymczasowych
+build/
+deploy/
+output/
+
 # Metadata
 *.aliases
 *.lvlps
